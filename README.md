@@ -5,7 +5,7 @@
 
 - [00. Introduction](#introduction-main)
 - [01. Data](#data-overview)
-- [02. EDA:Sneak Peak](#data-EDA)
+- [02. EDA](#data-eda)
 - [03. ANN](#ann-summary)
 
 
@@ -49,7 +49,7 @@
 **Training set and test set.** The training set and the test set respectively contains $250000$ and $550000$ observations. The two sets share $31$ common features between them. Additionally, the training set contains **labels** (**signal** or **background**) and **weights**.
 
 
-# EDA <a name="data-EDA"></a>
+# EDA <a name="data-eda"></a>
 **The objective of the project is to classify an event produced in the particle accelerator as background or signal**. As described earlier, a **background event** is explained by the existing theories and previous observations. A **signal event**, however, indicates a process that cannot be described by previous observations and leads to the potential discovery of a new particle.
 
 Exploratory Data Analysis (EDA) plays a pivotal role in this competition, as it enables participants to gain valuable insights into the dataset collected from the Large Hadron Collider (LHC). Here are some of the key steps taken:
