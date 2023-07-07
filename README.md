@@ -50,6 +50,10 @@
 
 
 # EDA <a name="data-eda"></a>
+**Sneak Peak**
+<img width="1140" alt="Screenshot 2023-07-06 at 7 23 07 PM" src="https://github.com/EfthimiosVlahos/Higgs_Boson_Particle_Detection_Project/assets/56899588/f83eb0a2-0341-4c00-b544-934046dccdf5">
+
+
 **The objective of the project is to classify an event produced in the particle accelerator as background or signal**. As described earlier, a **background event** is explained by the existing theories and previous observations. A **signal event**, however, indicates a process that cannot be described by previous observations and leads to the potential discovery of a new particle.
 
 Exploratory Data Analysis (EDA) plays a pivotal role in this competition, as it enables participants to gain valuable insights into the dataset collected from the Large Hadron Collider (LHC). Here are some of the key steps taken:
@@ -88,7 +92,6 @@ To improve the model's performance, particular attention was given to ensuring a
 The ANN exhibited exceptional performance on unseen data, which was assessed through a comprehensive test set evaluation. With a precision rate of 92%, the model demonstrated its capability to generalize well to new, unseen instances and make accurate predictions. This high precision value indicated that the model had a low false positive rate, implying that it made few incorrect predictions of background noise as signal or vice versa. The ability to perform well on unseen data showcases the model's robustness and reliability in real-world scenarios.
 
 In conclusion, the developed ANN model using Keras functional APIs for the Higgs Boson competition achieved accurate predictions by effectively capturing complex patterns and relationships in the data. The model's performance was further enhanced by ensuring a balanced class distribution, mitigating bias and promoting generalization. With an exceptional precision rate of 92% on the test set, the model demonstrated its ability to make accurate predictions on unseen data, establishing its reliability and practical applicability.
-
 
 
 
