@@ -39,7 +39,7 @@
 
 **Deep neural network.** The abundance of labeled simulation training data and the complex underlying structure make this an ideal application for **deep learning**, in particular for large, [**deep neural networks**](https://en.wikipedia.org/wiki/Deep_learning#Deep_neural_networks). Deep neural networks can simplify and improve the analysis of high-energy physics data by automatically learning high-level features from the data. In particular, they increase the statistical power of the analysis even without the help of manually derived high-level features.
 
-# Data <a name="data"></a>
+# Data <a name="data-overview"></a>
 **Source:** **https://www.kaggle.com/competitions/higgs-boson/data**
 
 **The simulator.** The dataset has been built from official ATLAS full-detector simulation. The simulator has two parts. In the first, random proton-proton collisions are simulated based on the knowledge that we have accumulated on particle physics. It reproduces the random microscopic explosions resulting from the proton-proton collisions. In the second part, the resulting particles are tracked through a virtual model of the detector. The process yields simulated events with properties that mimic the statistical properties of the real events with additional information on what has happened during the collision, before particles are measured in the detector.
@@ -79,7 +79,7 @@ EDA is instrumental in detecting outliers or anomalies in the dataset that might
 Exploratory Data Analysis (EDA) serves as a crucial step in the Higgs Boson competition, offering participants a deeper understanding of the dataset collected from the Large Hadron Collider (LHC). By comprehensively exploring the dataset, cleaning and preprocessing the data, generating statistical summaries, visualizing relationships, selecting relevant features, and validating models, data scientists can unravel the intricate secrets of the Higgs Boson particle. EDA empowers researchers to make informed decisions, enhance the predictive power of models, and contribute to cutting-edge research in particle physics.
 
 
-# ANN <a name="ann"></a>
+# ANN <a name="ann-summary"></a>
 
 The developed artificial neural network (ANN) model using Keras functional APIs for the Higgs Boson competition achieved accurate predictions, as evaluated through rigorous evaluation metrics. By leveraging the power of ANNs, the model effectively captured complex patterns and relationships present in the data, allowing for robust predictions. The Keras functional APIs provided a flexible and intuitive framework to construct the ANN architecture, enabling the integration of various layers and activation functions.
 
