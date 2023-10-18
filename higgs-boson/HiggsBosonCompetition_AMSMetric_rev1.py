@@ -3,9 +3,6 @@
 Evaluation metric for the Higgs Boson Kaggle Competition,
 as described on:
 https://www.kaggle.com/c/higgs-boson/details/evaluation
-
-@author: Joyce Noah-Vanhoukce
-Created: Thu Apr 24 2014
 """
 
 import os
